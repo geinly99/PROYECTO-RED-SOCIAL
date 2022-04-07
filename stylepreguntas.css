@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(backgroundpreguntas.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.encabezadoPrincipal{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(41, 41, 101,0.5);
+}
+.navegadorHeader{
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.elementoNavegador{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+    padding: 10px;
+}
+.elementoNavegador:hover{
+    color: rgb(41, 41, 101);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.pieDePagina{
+    width: 100%;
+    background-color: rgba(41, 41, 101,0.5);
+    text-align: center;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    color: #fff;
+    
+}

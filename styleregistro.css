@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(gatoregistro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 10%; */
+    
+}
+.contenedorPadre{
+    width: 50%;
+    background-color: rgba(41, 41, 101,0.5);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 20px;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    border-radius: 10px;
+
+    
+    
+}
+.entradaFormulario{
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.entradaFormulario:hover{
+    transform: scale(1.1,1.1);
+}
+.botonFormulario{
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    background-color:#EE6D7A ;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+}
+.botonFormulario:hover{
+    transform: scale(1.3,1.3);
+    color: #EE6D7A;
+    background-color: #fff;
+
+}
+
+.pieDePagina{
+    width: 100%;
+    background-color: rgba(41, 41, 101,0.5);
+    text-align: center;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    color: #fff;
+    
+}
+@media all and (max-width:400px){
+    .contenedorPadre{
+        width: 80%;
+        left: 10%;
+    }
+}

@@ -1,0 +1,65 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+   margin-top: 10%;
+   background-image: url(dogsandcat.jpg) ;
+}
+.container{
+    width: 400px;
+    min-height: 50%;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.imagenLogo{
+    width: 80%;
+    padding: 0;
+}
+.contenedorBoton{
+    width: 80%;
+    background-color: brown;
+    margin: 10px 0px;
+
+}
+.boton{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px 0px;
+    border: none;
+    transition: all 0.4s ease-in;
+
+}
+.boton:hover{
+    transform: scale(1.2,1.1);
+    color: #fff;
+}
+#botonIniciar{
+background-color:  #e8c2caff;
+font-family: 'Times New Roman', Times, serif;
+}
+#botonRegistro{
+background-color: #b392acff;
+font-family: 'Times New Roman', Times, serif;
+}
+.pieDePagina{
+    width: 100%;
+    background-color: rgba(41, 41, 101,0.5);
+    text-align: center;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    color: #fff;
+    
+}
